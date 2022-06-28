@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Michaels Store",
+    "description": "Coupon Code",
+    "slug": "Store2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/michaelslogo.png",
+    "plugins": [
+      [
+        "expo-ads-admob",
+        {
+          "userTrackingPermission": "This identifier will be used to deliver personalized ads to you."
+        }
+      ]
+    ],
+    "splash": {
+      "image": "./assets/SplashScreen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E21717"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.michael.michaelsstore",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~1458002511"
+      }
+      
+    },
+    
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.michael.michaelsstore",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-3940256099942544~3347511713"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
